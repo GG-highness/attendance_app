@@ -8,34 +8,34 @@
 
     <ImageView
         android:id="@+id/logo"
-        android:src="@drawable/ic_launcher_background"
         android:layout_width="77dp"
         android:layout_height="53dp"
         android:layout_marginTop="24dp"
+        android:src="@drawable/ic_launcher_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
     <ImageView
         android:id="@+id/imageView"
-        android:src="@drawable/ic_launcher_background"
-        android:layout_height="150dp"
         android:layout_width="150dp"
+        android:layout_height="150dp"
         android:layout_marginTop="56dp"
+        android:src="@drawable/ic_launcher_background"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/logo"/>
+        app:layout_constraintTop_toBottomOf="@+id/logo" />
 
     <EditText
         android:id="@+id/email"
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
+        android:background="@drawable/edit_text"
         android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:background="@drawable/edit_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView" />
@@ -45,11 +45,11 @@
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginTop="24dp"
+        android:background="@drawable/edit_text"
         android:hint="@string/password"
         android:inputType="textPassword"
         android:textColor="@color/white"
         android:textColorHint="@color/white"
-        android:background="@drawable/edit_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/email" />
@@ -59,15 +59,15 @@
         android:layout_width="320dp"
         android:layout_height="45dp"
         android:layout_marginTop="56dp"
+        android:background="@drawable/gradation_btn"
         android:clickable="false"
         android:enabled="false"
         android:text="@string/login"
+        android:textAllCaps="false"
         app:backgroundTint="@null"
-        android:background="@drawable/gradation_btn"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/password"
-        android:textAllCaps="false"/>
+        app:layout_constraintTop_toBottomOf="@+id/password" />
 
     <TextView
         android:id="@+id/signup_btn"
@@ -75,8 +75,8 @@
         android:layout_height="21dp"
         android:layout_marginTop="24dp"
         android:text="@string/signup_btn"
-        android:textSize="16sp"
         android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="@+id/login_btn"
         app:layout_constraintTop_toBottomOf="@+id/login_btn" />
 
@@ -85,9 +85,9 @@
         android:layout_width="180dp"
         android:layout_height="21dp"
         android:layout_marginTop="24dp"
-        android:textSize="16sp"
-        android:textColor="@color/white"
         android:text="@string/forget"
+        android:textColor="@color/white"
+        android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/login_btn"
         app:layout_constraintTop_toBottomOf="@+id/login_btn" />
 
