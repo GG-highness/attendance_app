@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">attendance_app</string>
+
+    <!--  ログイン画面  -->
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="signup_btn">Sign up</string>
+    <string name="forget">パスワードをお忘れの方</string>
 </resources>
