@@ -99,7 +99,7 @@
         android:background="@drawable/gradation_btn"
         android:clickable="false"
         android:enabled="false"
-        android:text="@string/login"
+        android:text="@string/signup_btn"
         android:textAllCaps="false"
         app:backgroundTint="@null"
         app:layout_constraintEnd_toEndOf="parent"
