@@ -1,5 +1,6 @@
 package com.example.attendance_app.activity
 
+import android.content.Intent
 import android.os.Bundle
 import androidx.activity.viewModels
 import androidx.appcompat.app.AppCompatActivity
@@ -18,5 +19,11 @@ class LoginActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityLoginBinding.inflate(layoutInflater)
         setContentView(binding.root)
+
+        binding.loginBtn.setOnClickListener{
+            val intent = Intent(applicationContext, DayActivity::class.java)
+            startActivity(intent)
+            finish()
+        }
     }
 }
